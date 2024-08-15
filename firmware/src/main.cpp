@@ -1,14 +1,18 @@
 #include <Arduino.h>
+#include <Wire.h>
+#include <SPI.h>
+
+#include <Ticker.h>
+#include <ESPRotary.h>
+#include <Button2.h>
+
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
 
 void setup()
 {
-  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop()
 {
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(1000);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(1000);
 }
